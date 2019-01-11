@@ -14,6 +14,12 @@
 		84660CB821E682B9008E8136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84660CB621E682B9008E8136 /* LaunchScreen.storyboard */; };
 		84660CC321E682B9008E8136 /* Actividad5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660CC221E682B9008E8136 /* Actividad5Tests.swift */; };
 		84660CCE21E682B9008E8136 /* Actividad5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660CCD21E682B9008E8136 /* Actividad5UITests.swift */; };
+		84660CDD21E68376008E8136 /* Empleado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660CDC21E68376008E8136 /* Empleado.swift */; };
+		84660CDF21E683C7008E8136 /* Cobranza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660CDE21E683C7008E8136 /* Cobranza.swift */; };
+		84660CE321E6846D008E8136 /* Deudor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660CE221E6846D008E8136 /* Deudor.swift */; };
+		84660CE521E687C4008E8136 /* DataResgister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660CE421E687C4008E8136 /* DataResgister.swift */; };
+		84660CE721E6941A008E8136 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660CE621E6941A008E8136 /* ViewController2.swift */; };
+		84660CE921E79A4A008E8136 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660CE821E79A4A008E8136 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		84660CC921E682B9008E8136 /* Actividad5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Actividad5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84660CCD21E682B9008E8136 /* Actividad5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad5UITests.swift; sourceTree = "<group>"; };
 		84660CCF21E682B9008E8136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84660CDC21E68376008E8136 /* Empleado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empleado.swift; sourceTree = "<group>"; };
+		84660CDE21E683C7008E8136 /* Cobranza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cobranza.swift; sourceTree = "<group>"; };
+		84660CE221E6846D008E8136 /* Deudor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deudor.swift; sourceTree = "<group>"; };
+		84660CE421E687C4008E8136 /* DataResgister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResgister.swift; sourceTree = "<group>"; };
+		84660CE621E6941A008E8136 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		84660CE821E79A4A008E8136 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,15 @@
 		84660CAC21E682B8008E8136 /* Actividad5 */ = {
 			isa = PBXGroup;
 			children = (
+				84660CDB21E682E7008E8136 /* Model */,
 				84660CAD21E682B8008E8136 /* AppDelegate.swift */,
 				84660CAF21E682B8008E8136 /* ViewController.swift */,
 				84660CB121E682B8008E8136 /* Main.storyboard */,
 				84660CB421E682B9008E8136 /* Assets.xcassets */,
 				84660CB621E682B9008E8136 /* LaunchScreen.storyboard */,
 				84660CB921E682B9008E8136 /* Info.plist */,
+				84660CE621E6941A008E8136 /* ViewController2.swift */,
+				84660CE821E79A4A008E8136 /* ViewController3.swift */,
 			);
 			path = Actividad5;
 			sourceTree = "<group>";
@@ -123,6 +138,17 @@
 				84660CCF21E682B9008E8136 /* Info.plist */,
 			);
 			path = Actividad5UITests;
+			sourceTree = "<group>";
+		};
+		84660CDB21E682E7008E8136 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84660CDC21E68376008E8136 /* Empleado.swift */,
+				84660CDE21E683C7008E8136 /* Cobranza.swift */,
+				84660CE221E6846D008E8136 /* Deudor.swift */,
+				84660CE421E687C4008E8136 /* DataResgister.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84660CE721E6941A008E8136 /* ViewController2.swift in Sources */,
+				84660CDD21E68376008E8136 /* Empleado.swift in Sources */,
+				84660CE921E79A4A008E8136 /* ViewController3.swift in Sources */,
+				84660CE321E6846D008E8136 /* Deudor.swift in Sources */,
+				84660CDF21E683C7008E8136 /* Cobranza.swift in Sources */,
 				84660CB021E682B8008E8136 /* ViewController.swift in Sources */,
+				84660CE521E687C4008E8136 /* DataResgister.swift in Sources */,
 				84660CAE21E682B8008E8136 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
